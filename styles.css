@@ -1,0 +1,35 @@
+#rectangle {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(223, 164, 164);
+}
+
+#rectangle2 {
+  position: relative;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(164, 192, 223);
+  left: 200px;
+}
+
+.clickable-box {
+  text-decoration: none; /* Removes underline */
+  color: inherit;        /* Keeps text color normal */
+  display: block;        /* Makes the link fill the container area */
+}
+
+.box-content {
+  width: 200px;
+  height: 150px;
+  border: 2px solid #c326ae;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content:hover {
+  background-color: #e9e9e9; /* Adds hover effect */
+}
